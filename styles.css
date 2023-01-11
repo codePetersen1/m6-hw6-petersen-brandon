@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(email-pattern.webp);
+}
+
+nav{
+    max-width: 800px;
+    display: flex;
+    margin:auto;
+    color: #808080;
+}
+
+header{
+    background-color: #ffffff;
+    border-bottom: solid;
+}
+
+.name {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-right: auto;
+    background-color: #000000;
+    padding: 20px 20px;
+}
+
+.links{
+    color: #808080;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 4px;
+    padding: 20px 0;
+}
+
+.container{
+    max-width: 800px;
+    display: flex;
+    align-content:center;
+    margin: 20px auto;
+}
+
+article{
+    width: 550px;
+    background-color: #ffffff;
+    margin-right: auto;
+    padding: 5px;
+}
+
+#profile{
+    float: left;
+    width: 200px;
+    padding-right:5px;
+}
+
+aside{
+    text-align: center;
+    width:200px;
+    height: max-content;
+    background-color: #ffffff;
+    padding-bottom: 10px;
+    
+}
+
+aside hr{
+    width: 80%;
+}
+
+aside img{width: 50px;}
+
+
+footer{
+    background-color: #808080;
+    margin-top: auto;
+    text-align: center;
+    border-top: solid;
+    padding: 20px;
+}
