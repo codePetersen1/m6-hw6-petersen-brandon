@@ -52,7 +52,8 @@ article{
 #profile{
     float: left;
     width: 200px;
-    padding-right:5px;
+    margin-right:10px;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 aside{
@@ -68,7 +69,10 @@ aside hr{
     width: 80%;
 }
 
-aside img{width: 50px;}
+aside img{width: 50px;
+    margin: 5px;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.5);
+}
 
 
 footer{
